@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="page-header">
+        <h1>Looks like you messed up something!</h1>
+        <img src={{ url_for("static", filename="img/MonkeyEmoji.png") }} style="max-width: 25%;" style="align-items: center;">
+    </div>
+</div>
+{% endblock %}
